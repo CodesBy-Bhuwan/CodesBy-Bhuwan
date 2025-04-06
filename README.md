@@ -1,4 +1,4 @@
-# Hi there 👋
+# Hi there 👋 ![Wave](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWk5dDcwa3FmYW5xenNkdzRjOWFjemc4Mmt4NjNpZnNuZXZ4a3Y1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WtOkaikiwaR87ZvAFH/giphy.gif)
 
 ## A hygenic Enterprise Web App Developer
 Java Enthusiast 
