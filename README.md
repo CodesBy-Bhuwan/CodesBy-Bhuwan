@@ -1,7 +1,7 @@
 # Hi there 👋
 
 ## A hygenic Enterprise Web App Developer
-### Java Enthusiast 
+Java Enthusiast 
 
 ## Welcome to My GitHub!
 
