@@ -2,7 +2,9 @@
 
 ## A hygenic Enterprise Web App Developer
 ```bash
-dev-bhuwan@codesby-bhuwan:$ sudo Java Enthusiast
+
+dev-bhuwan@codesby-bhuwan:$ sudo apt Java Enthusiast -idt -p 0:8080 posgresql:latest
+
 ``` 
 
 ## Welcome to My GitHub!
