@@ -2,10 +2,11 @@
 
 ## A hygenic Enterprise Web App Developer
 ```bash
-
-dev-bhuwan@codesby-bhuwan:$ sudo apt Java Enthusiast -idt -p 0:8080 posgresql:latest
-
-``` 
+dev-bhuwan@codesby-bhuwan:$ sudo apt Java Enthusiast -idt -p 0:8080 springboot:v21
+```
+```bash
+dev-bhuwan@codesby-bhuwan:$ sudo dataimport --db posgresql --cache redis --ORM hibernate --cloud AWS.basics 
+```
 
 ## Welcome to My GitHub!
 
