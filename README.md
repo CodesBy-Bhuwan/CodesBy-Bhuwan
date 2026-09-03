@@ -7,6 +7,9 @@ dev-bhuwan@codesby-bhuwan:$ sudo apt Java Enthusiast -idt -p 0:8080 springboot:v
 ```bash
 dev-bhuwan@codesby-bhuwan:$ sudo dataimport --db posgresql --cache redis --ORM hibernate --cloud AWS.basics 
 ```
+```bash
+dev-bhuwan@codesby-bhuwan:$ 
+```
 
 ## Welcome to My GitHub!
 
