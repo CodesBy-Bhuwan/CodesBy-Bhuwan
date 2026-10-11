@@ -1,5 +1,6 @@
  <div align="center">
-# Hi there 👋      
+# **Hi there** 👋      
+  
 # BACKEND && DEVOPS ENGINEER   
 
 **Java Backend Developer · Cloud · Automation**
