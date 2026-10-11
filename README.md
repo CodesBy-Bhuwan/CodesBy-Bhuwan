@@ -1,8 +1,6 @@
-# Hi there 👋 
-
  <div align="center">
-
-# DEVOPS ENGINEER
+# Hi there 👋 
+# BACKEND && DEVOPS ENGINEER
 
 **Java Backend Developer · Cloud · Automation**
 
