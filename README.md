@@ -1,4 +1,5 @@
- <div align="center">
+<div align="center">
+  
 # **Hi there** 👋      
   
 # BACKEND && DEVOPS ENGINEER   
@@ -33,19 +34,6 @@ I'm a DevOps Engineer with a background in Java backend development, interested 
 
 ---
 
-## ⚙️ Tech Stack
-
-| DevOps & Automation | Cloud & Infrastructure | Backend Development | Monitoring |
-|---|---|---|---|
-| Docker | AWS | Java | Prometheus |
-| Kubernetes | EC2 | Spring Boot | Grafana |
-| Jenkins | VPC | REST APIs | Loki |
-| Terraform | IAM | SQL | Promtail |
-| Ansible | Linux | Git | SonarQube |
-| Nexus | Nginx | Maven | GitHub |
-
----
-
 ## 🚀 Featured Projects
 
 <!-- PROJECT 1: Replace the image URL and repository link with your actual project details. -->
@@ -77,7 +65,7 @@ A full-stack project focused on containerization and deployment automation.
 
 <div align="center">
 
-[![Infrastructure Project Preview](images/devops-preview.gif)](YOUR_DEVOPS_REPOSITORY_URL)
+[![Infrastructure Project Preview](images/devops-preview.gif)](https://github.com/CodesBy-Bhuwan/DevOps-Architecture)
 
 **Infrastructure Automation · Cloud · Monitoring**
 
@@ -91,7 +79,7 @@ Infrastructure automation and deployment workflows using DevOps tools.
 - 🔄 CI/CD workflow implementation.
 - 📊 System metrics monitoring and visualization.
 
-**[📂 View Repository](YOUR_DEVOPS_REPOSITORY_URL)**
+**[📂 View Repository](https://github.com/CodesBy-Bhuwan/DevOps-Architecture)**
 
 ---
 
