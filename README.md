@@ -133,9 +133,9 @@ Infrastructure automation and deployment workflows using DevOps tools.
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CodesBy-Bhuwan&show_icons=true&theme=github_dark&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=github_dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CodesBy-Bhuwan&layout=compact&theme=github_dark&hide_border=true)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=github-dark-blue&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=CodesBy-Bhuwan&theme=github-dark-blue&hide_border=true)
 
 </div>
 
