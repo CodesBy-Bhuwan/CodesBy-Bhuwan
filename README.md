@@ -25,12 +25,13 @@
 
 ## 👨‍💻 About Me
 
-I'm a DevOps Engineer with a background in Java backend development, interested in infrastructure automation, CI/CD pipelines, cloud technologies, and reliable application deployments.
+I'm a **DevOps Engineer and Java Backend Developer** passionate about building robust applications and reliable infrastructure.
 
-- 🔧 Working with CI/CD, Docker, Linux, and infrastructure automation.
-- ☁️ Exploring AWS and Kubernetes deployment.
-- ☕ Background in Java and Spring Boot.
-- 📈 Interested in monitoring, logging, and system reliability.
+- ☕ **Backend Development:** Java, Spring Boot, REST APIs, business logic, and database integration.
+- 🔧 **DevOps & Automation:** Docker, Kubernetes, Jenkins, Terraform, Ansible, and CI/CD pipelines.
+- ☁️ **Cloud & Infrastructure:** Cloud technologies, infrastructure automation, and reliable application deployments.
+- 📊 **Monitoring & Reliability:** Application monitoring, logging, troubleshooting, and performance optimization.
+- 🔄 **End-to-End Delivery:** Bridging development and operations—from writing backend code to deploying, monitoring, and scaling applications.
 
 ---
 
