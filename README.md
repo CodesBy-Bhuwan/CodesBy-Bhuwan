@@ -4,14 +4,14 @@
   
 # BACKEND && DEVOPS ENGINEER   
 
-**Java Backend Developer · Cloud · Automation**
+**Java Backend Developer · CI/CD · Cloud · Automation**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 
-[About Me](#-about-me) · [Skills](#-tech-stack) · [Projects](#-featured-projects) · [Workflow](#-my-workflow) · [Contact](#-connect-with-me)
+[About Me](#-about-me) ·  [Projects](#-featured-projects) · [Workflow](#-my-workflow) · [Contact](#-connect-with-me)
 
 ## Welcome to My GitHub!
 
