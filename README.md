@@ -102,9 +102,9 @@ flowchart TD
     NEXUS["📦 NEXUS"]
     DOCKER["🐳 DOCKER / KUBERNETES"]
     AWS["☁️ AWS / SERVERS"]
-    APP["⚛️ REACT JS + 🍃 SPRING BOOT<br/>APPLICATION"]
-    MYSQL[("🐬 MYSQL")]
-    SQLITE[("🗄️ SQLITE")]
+    APP["⚛️ FRONTEND + 🍃 BACKEND<br/>APPLICATION"]
+    MYSQL[("🐬 SQL DATABASE")]
+    SQLITE[("🗄️ No-SQL DATABASE")]
 
     TF["🏗️ TERRAFORM"]
     VAGRANT["🖥️ VAGRANT"]
