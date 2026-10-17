@@ -58,7 +58,7 @@ A full-stack project focused on containerization and deployment automation.
 - 🌐 Configured Nginx reverse proxy for application routing.
 - 🛠️ Troubleshot deployment and infrastructure issues.
 
-**[📂 View Repository](YOUR_WANDERLUST_REPOSITORY_URL)**
+**[📂 View Repository](https://github.com/CodesBy-Bhuwan/wanderlust-DevOps)**
 
 ---
 
