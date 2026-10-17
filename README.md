@@ -90,52 +90,84 @@ Infrastructure automation and deployment workflows using DevOps tools.
 
 ## 🚀 DevOps CI/CD Pipeline
 
+## 🚀 DevOps CI/CD Infrastructure Architecture
+
 ```mermaid
 flowchart TD
-    A["👨‍💻 DEVELOPER"]
-    B["📦 GIT / GITHUB"]
-    C["⚙️ JENKINS"]
-    D["🔨 BUILD & TEST"]
-    E["🔍 SONARQUBE"]
-    F["📚 NEXUS"]
-    G["🐳 DOCKER / KUBERNETES"]
-    H["☁️ AWS / SERVERS"]
+    DEV["👨‍💻 DEVELOPER"]
+    GIT["🔀 🐙 GIT / GITHUB"]
+    JENKINS["👨‍🔧 JENKINS"]
+    BUILD["⚙️ BUILD & TEST"]
+    SONAR["🔍 SONARQUBE"]
+    NEXUS["📦 NEXUS"]
+    DOCKER["🐳 DOCKER / KUBERNETES"]
+    AWS["☁️ AWS / SERVERS"]
+    APP["⚛️ REACT JS + 🍃 SPRING BOOT<br/>APPLICATION"]
+    MYSQL[("🐬 MYSQL")]
+    SQLITE[("🗄️ SQLITE")]
 
-    I["🏗️ TERRAFORM"]
-    J["🔧 ANSIBLE"]
-    K["🖥️ VAGRANT"]
+    TF["🏗️ TERRAFORM"]
+    VAGRANT["🖥️ VAGRANT"]
+    INFRA["☁️ AWS / INFRASTRUCTURE"]
+    ANSIBLE["🔧 ANSIBLE"]
 
-    L["📊 PROMETHEUS"]
-    M["📈 GRAFANA"]
-    N["📜 PROMTAIL"]
-    O["🗄️ LOKI"]
+    PROM["🔥 PROMETHEUS"]
+    GRAFANA["📊 GRAFANA"]
+    PROMTAIL["📜 PROMTAIL"]
+    LOKI["📋 LOKI"]
 
-    A --> B --> C --> D --> E --> F --> G --> H
-    C -.-> I
-    I --> H
-    I -.-> K
-    H --> J
-    J --> H
+    DEV --> GIT --> JENKINS
+    JENKINS --> BUILD --> SONAR --> NEXUS --> DOCKER --> AWS --> APP
+    APP --> MYSQL
+    APP --> SQLITE
 
-    H --> L
-    L --> M
+    JENKINS -.-> TF
+    JENKINS -.-> VAGRANT
+    TF <--> VAGRANT
+    TF --> INFRA
+    VAGRANT -.-> INFRA
+    INFRA --> ANSIBLE
+    ANSIBLE --> AWS
 
-    H --> N
-    N --> O
-    O --> M
+    JENKINS -.-> PROM
+    AWS --> PROM
+    PROM --> GRAFANA
 
-    classDef developer fill:#dbeafe,stroke:#2563eb,color:#111827,stroke-width:2px
-    classDef pipeline fill:#fef3c7,stroke:#d97706,color:#111827,stroke-width:2px
-    classDef infrastructure fill:#ede9fe,stroke:#7c3aed,color:#111827,stroke-width:2px
-    classDef monitoring fill:#dcfce7,stroke:#16a34a,color:#111827,stroke-width:2px
-    classDef logging fill:#fce7f3,stroke:#db2777,color:#111827,stroke-width:2px
+    AWS --> PROMTAIL
+    PROMTAIL --> LOKI
+    LOKI --> GRAFANA
 
-    class A,B developer
-    class C,D,E,F,G pipeline
-    class H,I,J,K infrastructure
-    class L,M monitoring
-    class N,O logging
+    classDef main fill:transparent,stroke:#58a6ff,color:#c9d1d9,stroke-width:2px
+    classDef ci fill:transparent,stroke:#f0ad4e,color:#f0ad4e,stroke-width:2px
+    classDef infra fill:transparent,stroke:#a371f7,color:#d2a8ff,stroke-width:2px
+    classDef monitoring fill:transparent,stroke:#00c896,color:#7ee787,stroke-width:2px
+    classDef logging fill:transparent,stroke:#ff4d9d,color:#ff8ac2,stroke-width:2px
+    classDef database fill:transparent,stroke:#39c5cf,color:#79e6ef,stroke-width:2px
+
+    class DEV,GIT,APP,DOCKER main
+    class JENKINS,BUILD,SONAR,NEXUS ci
+    class TF,VAGRANT,INFRA,ANSIBLE,AWS infra
+    class PROM,GRAFANA monitoring
+    class PROMTAIL,LOKI logging
+    class MYSQL,SQLITE database
+
+    linkStyle 0,1,2,3,4,5,6,7,8 stroke:#58a6ff,stroke-width:2px
+    linkStyle 9,10,11,12,13,14,15,16 stroke:#a371f7,stroke-width:2px
+    linkStyle 17,18,19 stroke:#00c896,stroke-width:2px
+    linkStyle 20,21,22 stroke:#ff4d9d,stroke-width:2px
 ```
+
+### 🛠️ Technology Stack
+
+- **Application:** Java, Spring Boot, React.js, REST APIs
+- **Databases:** MySQL, SQLite
+- **CI/CD:** Git, GitHub, Jenkins
+- **Quality & Artifacts:** SonarQube, Nexus
+- **Infrastructure:** Terraform, Ansible, Vagrant, AWS
+- **Deployment:** Docker, Kubernetes
+- **Monitoring:** Prometheus, Grafana
+- **Logging:** Promtail, Loki
+
 
 
 </div>
