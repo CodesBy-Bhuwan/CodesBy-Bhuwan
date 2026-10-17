@@ -88,33 +88,55 @@ Infrastructure automation and deployment workflows using DevOps tools.
 
 <div align="center">
 
-```text
-       DEVELOPER
-           |
-           v
-      GIT / GITHUB
-           |
-           v
-        JENKINS
-           |
-           v
-     BUILD & TEST
-           |
-           v
-       SONARQUBE
-           |
-           v
-         NEXUS
-           |
-           v
-    DOCKER / KUBERNETES
-           |
-           v
-      AWS / SERVERS
-           |
-           v
-  PROMETHEUS + GRAFANA
+## 🚀 DevOps CI/CD Pipeline
+
+```mermaid
+flowchart TD
+    A["👨‍💻 DEVELOPER"]
+    B["📦 GIT / GITHUB"]
+    C["⚙️ JENKINS"]
+    D["🔨 BUILD & TEST"]
+    E["🔍 SONARQUBE"]
+    F["📚 NEXUS"]
+    G["🐳 DOCKER / KUBERNETES"]
+    H["☁️ AWS / SERVERS"]
+
+    I["🏗️ TERRAFORM"]
+    J["🔧 ANSIBLE"]
+    K["🖥️ VAGRANT"]
+
+    L["📊 PROMETHEUS"]
+    M["📈 GRAFANA"]
+    N["📜 PROMTAIL"]
+    O["🗄️ LOKI"]
+
+    A --> B --> C --> D --> E --> F --> G --> H
+    C -.-> I
+    I --> H
+    I -.-> K
+    H --> J
+    J --> H
+
+    H --> L
+    L --> M
+
+    H --> N
+    N --> O
+    O --> M
+
+    classDef developer fill:#dbeafe,stroke:#2563eb,color:#111827,stroke-width:2px
+    classDef pipeline fill:#fef3c7,stroke:#d97706,color:#111827,stroke-width:2px
+    classDef infrastructure fill:#ede9fe,stroke:#7c3aed,color:#111827,stroke-width:2px
+    classDef monitoring fill:#dcfce7,stroke:#16a34a,color:#111827,stroke-width:2px
+    classDef logging fill:#fce7f3,stroke:#db2777,color:#111827,stroke-width:2px
+
+    class A,B developer
+    class C,D,E,F,G pipeline
+    class H,I,J,K infrastructure
+    class L,M monitoring
+    class N,O logging
 ```
+
 
 </div>
 
