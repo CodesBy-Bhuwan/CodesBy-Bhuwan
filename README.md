@@ -157,6 +157,8 @@ flowchart TD
     linkStyle 20,21,22 stroke:#ff4d9d,stroke-width:2px
 ```
 
+</div>
+
 ### 🛠️ Technology Stack
 
 - **Application:** Java, Spring Boot, React.js, REST APIs
@@ -169,8 +171,6 @@ flowchart TD
 - **Logging:** Promtail, Loki
 
 
-
-</div>
 
 ---
 
