@@ -90,8 +90,6 @@ Infrastructure automation and deployment workflows using DevOps tools.
 
 ## 🚀 DevOps CI/CD Pipeline
 
-## 🚀 DevOps CI/CD Infrastructure Architecture
-
 ```mermaid
 flowchart TD
     DEV["👨‍💻 DEVELOPER"]
