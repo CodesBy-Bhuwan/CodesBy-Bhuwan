@@ -1,8 +1,10 @@
 <div align="center">
   
-# **Hi there** 👋      
-  
-# BACKEND && DEVOPS ENGINEER   
+# 👋 Hi there!
+
+<div align="center">
+
+# BACKEND && DEVOPS ENGINEER
 
 **Java Backend Developer · CI/CD · Cloud · Automation**
 
@@ -11,19 +13,21 @@
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 
-[About Me](#-about-me) ·  [Projects](#-featured-projects) · [Workflow](#-my-workflow) · [Contact](#-connect-with-me)
+**[👤 About](#about) · [🚀 Projects](#projects) · [🔄 Workflow](#workflow) · [📅 Currently](#currently) · [📬 Contact](#contact)**
 
-## Welcome to My GitHub!
+### Welcome to My GitHub!
 
 ![Behind Emoji](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnc2Zm84bXB1Zmg5OWFjajVvZGNqeWFwd3M3bWxpbjR4dDRpMGM1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f8X0VZ33mAsreX9ZHB/giphy.gif)
 
-## Repo Down Here 👇👇👇  
+### Repo Down Here 👇👇👇
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+<a id="about"></a>
+<details>
+<summary><strong>👨‍💻 About Me</strong></summary>
 
 I'm a **DevOps Engineer and Java Backend Developer** passionate about building robust applications and reliable infrastructure.
 
@@ -33,17 +37,21 @@ I'm a **DevOps Engineer and Java Backend Developer** passionate about building r
 - 📊 **Monitoring & Reliability:** Application monitoring, logging, troubleshooting, and performance optimization.
 - 🔄 **End-to-End Delivery:** Bridging development and operations—from writing backend code to deploying, monitoring, and scaling applications.
 
+[⬆️ Back to Top](#top)
+
+</details>
+
 ---
 
-## 🚀 Featured Projects
-
-<!-- PROJECT 1: Replace the image URL and repository link with your actual project details. -->
+<a id="projects"></a>
+<details>
+<summary><strong>🚀 Featured Projects</strong></summary>
 
 ### 🌍 Wanderlust
 
 <div align="center">
 
-[![Wanderlust Project Preview](images/wanderlust-preview.gif)](YOUR_WANDERLUST_REPOSITORY_URL)
+[![Wanderlust Project Preview](images/wanderlust-preview.gif)](https://github.com/CodesBy-Bhuwan/wanderlust-DevOps)
 
 **Full-Stack Application · Containerization · CI/CD**
 
@@ -82,27 +90,31 @@ Infrastructure automation and deployment workflows using DevOps tools.
 
 **[📂 View Repository](https://github.com/CodesBy-Bhuwan/DevOps-Architecture)**
 
+[⬆️ Back to Top](#top)
+
+</details>
+
 ---
 
-## 🔄 My Workflow
+<a id="workflow"></a>
+<details>
+<summary><strong>🔄 My Workflow — CI/CD Architecture</strong></summary>
 
-<div align="center">
-
-## 🚀 DevOps CI/CD Pipeline
+### 🚀 DevOps CI/CD Pipeline
 
 ```mermaid
 flowchart TD
     DEV["👨‍💻 DEVELOPER"]
-    GIT["🔀 🐙 GIT / GITHUB"]
-    JENKINS["👨‍🔧 JENKINS"]
-    BUILD["⚙️ BUILD & TEST"]
+    GIT["🔀 GIT / GITHUB"]
+    JENKINS["⚙️ JENKINS"]
+    BUILD["🔨 BUILD & TEST"]
     SONAR["🔍 SONARQUBE"]
     NEXUS["📦 NEXUS"]
     DOCKER["🐳 DOCKER / KUBERNETES"]
     AWS["☁️ AWS / SERVERS"]
-    APP["⚛️ FRONTEND + 🍃 BACKEND<br/>APPLICATION"]
-    MYSQL[("🐬 SQL DATABASE")]
-    SQLITE[("🗄️ No-SQL DATABASE")]
+    APP["⚛️ REACT JS + SPRING BOOT<br/>APPLICATION"]
+    MYSQL[("🐬 MYSQL")]
+    SQLITE[("🗄️ SQLITE")]
 
     TF["🏗️ TERRAFORM"]
     VAGRANT["🖥️ VAGRANT"]
@@ -127,7 +139,6 @@ flowchart TD
     INFRA --> ANSIBLE
     ANSIBLE --> AWS
 
-    JENKINS -.-> PROM
     AWS --> PROM
     PROM --> GRAFANA
 
@@ -148,14 +159,7 @@ flowchart TD
     class PROM,GRAFANA monitoring
     class PROMTAIL,LOKI logging
     class MYSQL,SQLITE database
-
-    linkStyle 0,1,2,3,4,5,6,7,8 stroke:#58a6ff,stroke-width:2px
-    linkStyle 9,10,11,12,13,14,15,16 stroke:#a371f7,stroke-width:2px
-    linkStyle 17,18,19 stroke:#00c896,stroke-width:2px
-    linkStyle 20,21,22 stroke:#ff4d9d,stroke-width:2px
 ```
-
-</div>
 
 ### 🛠️ Technology Stack
 
@@ -168,31 +172,39 @@ flowchart TD
 - **Monitoring:** Prometheus, Grafana
 - **Logging:** Promtail, Loki
 
+[⬆️ Back to Top](#top)
 
+</details>
 
 ---
 
-## 📅 Currently
+<a id="currently"></a>
+<details>
+<summary><strong>📅 Currently</strong></summary>
 
 - 🔨 **Working on:** CI/CD, containerization, and infrastructure projects.
 - 📚 **Learning:** Kubernetes, Terraform, and cloud infrastructure.
 - 🎯 **Goal:** Build reliable, secure, and scalable deployment workflows.
 
+[⬆️ Back to Top](#top)
+
+</details>
+
 ---
 
-
-## 🤝 Connect With Me
+<a id="contact"></a>
+<details>
+<summary><strong>🤝 Connect With Me</strong></summary>
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
 
-</div>
+**Building · Automating · Deploying**
 
-<div align="center">
-
-*Building · Automating · Deploying*
+[⬆️ Back to Top](#top)
 
 </div>
- 
+
+</details>
