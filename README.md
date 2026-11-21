@@ -178,24 +178,24 @@ flowchart TD
 </details>
 
 ---
-
+<details>
 <a id="currently"></a>
 
 <summary><strong>📅 Currently</strong></summary>
-</details>
+
 - 🔨 **Working on:** CI/CD, containerization, and infrastructure projects.
 - 📚 **Learning:** Kubernetes, Terraform, and cloud infrastructure.
 - 🎯 **Goal:** Build reliable, secure, and scalable deployment workflows.
 
 [⬆️ Back to Top](#top)
-<details>
+</details>
+
 
 ---
-
-<a id="contact"></a>
 <details>
-<summary><strong>🤝 Connect With Me</strong></summary>
+<a id="contact"></a>
 
+<summary><strong>🤝 Connect With Me</strong></summary>
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
