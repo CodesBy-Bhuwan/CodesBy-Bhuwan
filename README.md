@@ -28,7 +28,7 @@
 <a id="about"></a>
 <details>
 <summary><strong>👨‍💻 About Me</strong></summary>
-</details>
+
 I'm a **DevOps Engineer and Java Backend Developer** passionate about building robust applications and reliable infrastructure.
 
 - ☕ **Backend Development:** Java, Spring Boot, REST APIs, business logic, and database integration.
@@ -39,7 +39,7 @@ I'm a **DevOps Engineer and Java Backend Developer** passionate about building r
 
 [⬆️ Back to Top](#top)
 
-
+</details>
 
 ---
 
@@ -83,7 +83,7 @@ A full-stack project focused on containerization and deployment automation.
 Infrastructure automation and deployment workflows using DevOps tools.
 
 **Technologies:** AWS · Terraform · Ansible · Docker · Prometheus · Grafana
-</details>
+
 
 - 🏗️ Infrastructure provisioning and configuration automation.
 - 🔄 CI/CD workflow implementation.
@@ -93,7 +93,7 @@ Infrastructure automation and deployment workflows using DevOps tools.
 
 [⬆️ Back to Top](#top)
 
-
+</details>
 
 ---
 
@@ -178,9 +178,9 @@ flowchart TD
 </details>
 
 ---
-<details>
-<a id="currently"></a>
 
+<a id="currently"></a>
+<details>
 <summary><strong>📅 Currently</strong></summary>
 
 - 🔨 **Working on:** CI/CD, containerization, and infrastructure projects.
@@ -192,9 +192,9 @@ flowchart TD
 
 
 ---
-<details>
-<a id="contact"></a>
 
+<a id="contact"></a>
+<details>
 <summary><strong>🤝 Connect With Me</strong></summary>
 <div align="center">
 
